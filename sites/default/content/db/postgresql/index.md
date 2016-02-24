@@ -107,7 +107,7 @@ import (
 
 var settings = postgresql.ConnectionURL{
   Database: `upperio_tests`,                            // Database name.
-  Address:   db.Host("localhost"), // Using unix sockets.
+  Address:   db.Host("localhost"),                      //Server IP or host name
   User:     `upperio`,                                  // Database username.
   Password: `upperio`,                                  // Database password.
 }
